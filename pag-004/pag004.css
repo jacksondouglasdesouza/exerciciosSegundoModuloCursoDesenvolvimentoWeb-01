@@ -1,0 +1,229 @@
+html, body , h1 {
+  margin:0;
+  padding:0;
+}
+
+html {
+  background:rgb(216, 216, 216);
+}
+
+article, aside, section, header, footer, nav {
+  display:block;
+}
+
+main {
+  width:660px;
+  height: 3000px;;
+  background-color:rgb(255,255,255);
+  color: #111;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  box-shadow: 0 0 10px #666;
+  margin:10px auto;
+  padding:10px;
+}
+
+#principal {
+  background-color:rgb(240,240,240);
+  border:1px dotted #666666;
+  margin-top:20px;
+  position: relative;
+  height: 500px;
+}
+
+
+section {
+  height: 150px;
+  width:150px;
+  padding:10px;
+}
+
+.janela0{
+  background-color: #e7d56f;
+  position: fixed;
+  height: 10px;
+  width: 100%;
+  top: 0;
+  left:0;
+  z-index: 100;
+}
+
+ /* Janelas 01 - 05 */
+
+.janela1 {
+  background-color:rgb(54, 117, 48);
+  position: absolute;
+  top: 10px;
+  left:20px;
+}
+
+.janela2 {
+  background-color:rgb(255, 215, 95);
+  position: absolute;
+  top: 40px;
+  left:50px;
+}
+
+.janela3 {
+  background-color:rgb(98, 171, 207);
+  position: absolute;
+  top: 70px;
+  left: 80px;
+}
+
+.janela4 {
+  background-color:rgb(214, 153, 84);
+  position: absolute;
+  top: 100px;
+  left: 110px;
+}
+
+.janela5 {
+  background-color:rgb(130, 111, 218);
+  position: absolute;
+  top: 130px;
+  left: 140px;
+}
+
+/* JANELAS 06 - 10 */
+
+
+.janela6 {
+  background-color:rgb(54, 117, 48);
+  position: absolute;
+  top: 100px;
+  right:40px;
+}
+
+.janela7 {
+  background-color:rgb(255, 215, 95);
+  position: absolute;
+  top: 150px;
+  right:80px;
+}
+
+.janela8 {
+  background-color:rgb(98, 171, 207);
+  position: absolute;
+  top: 200px;
+  right: 120px;
+}
+
+.janela9 {
+  background-color:rgb(214, 153, 84);
+  position: absolute;
+  top: 250px;
+  right: 160px;
+}
+
+.janela10 {
+  background-color:rgb(130, 111, 218);
+  position: absolute;
+  top: 300px;
+  right: 200px;
+}
+
+header nav{
+  width: 660px;
+  text-align: center;
+  
+}
+
+header nav ul li{
+  background-color: #5f5f5f;
+}
+
+
+header nav ul li, a{
+  display:inline-block;
+  text-decoration: none;
+  color: #F5FFF0;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 3px 1px;
+  text-align: center;
+}
+
+header nav ul li a:hover{
+  color: #ffffff;
+}
+
+footer{
+  width: 660px;
+/*   margin: 0 0 auto 340px; */
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: #111;;
+  background-color: #7c7c7c;
+  border: 1px solid #F5FFF0;
+}
+
+footer p, a{
+  margin: 5px 0px;
+  color: #111;
+  align-items: center;
+  height: auto;
+}
+
+
+/* Clipping */
+
+.janelaa {
+  background-color:rgb(153,204,51);
+  position:absolute;
+  top:100px;
+  left:40px;
+  clip: rect(0 170px 170px 0);
+}
+
+.janelab {
+  background-color:rgb(255,204,51);
+  position:absolute;
+  top:50px;
+  left:5px;
+}
+
+
+
+/* END Clipping */
+
+/* OVERFLOW */
+
+#principal-02 {
+  background-color:rgb(255,255,255);
+  width:600px;
+  box-shadow: 0 0 10px #666;
+  margin:10px auto;
+  padding:10px;
+}
+
+#conteudo {
+  background-color:rgb(240,240,240);
+  border:1px dotted #666666;
+  margin-top:20px;
+  position:relative;
+  height:500px;
+}
+
+section.janela1-over {
+  width:200px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+}
+
+.janela1-over {
+  background-color:rgb(153,204,51);
+  padding:10px;
+  position:absolute;
+  top:50px;
+  left:50px;
+}
+
+
+/* END OVERFLOW */

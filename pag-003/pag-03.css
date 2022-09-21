@@ -1,0 +1,92 @@
+html, body, h1, h2, h3, h4, p {
+  margin:10px;
+  padding:0;
+  color: #F5FFF0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+html {
+  background:rgb(255, 255, 255);
+}
+
+article, aside, section, header, footer, nav {
+  display:block;
+}
+
+header.navId{
+  background-color: rgb(255, 255, 255);
+  margin: 5px 5px;
+}
+
+header nav{
+  width: 100%;
+  text-align: center;
+}
+
+header nav ul li{
+  background-color: rgb(204,153,51);
+  border: 1px solid rgba(121, 86, 16, 0.589);
+  border-radius: 5px;
+}
+
+header nav ul li, a{
+  display: inline-block;
+  text-decoration: none;
+  color: #F5FFF0;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 3px 1px;
+}
+
+header nav ul li a:hover{
+  color: #0f0f0f;
+}
+
+main {
+  width:960px;
+  background-color:rgb(255,255,255);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  box-shadow: 0 0 5px #666;
+  margin:5px auto;
+  padding:5px;
+}
+
+header {
+  padding:25px;
+  background-color:rgb(204,153,51);
+  text-align:center;
+  margin-bottom:20px;
+}
+
+
+header h1 {
+  font-size:1.3em;
+  color:rgb(255,255,255);
+}
+
+.janela1 {
+  background-color: #ec7852;
+  height:500px;
+  width: 600px;
+  float: left;
+  padding: 20px;
+}
+
+.janela2 {
+  background-color:rgb(255, 197, 24);
+  height:500px;
+  margin-left: 660px;
+  padding: 20px;
+}
+
+footer {
+  padding: 5px;
+  background-color:rgb(204,153,51);
+  text-align:center;
+  color:rgb(255,255,255);
+  clear: both ;
+}

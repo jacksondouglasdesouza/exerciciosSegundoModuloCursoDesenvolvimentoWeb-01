@@ -1,0 +1,103 @@
+html, body, h1, h2, h3, h4, p {
+    margin:0;
+    padding:0;
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+html {
+    background:rgb(229,229,229);
+}
+
+article, aside, section, header, footer, nav {
+    display:block;
+}
+
+
+header.navId{
+  background-color: #f1f1f1;
+/*   margin: 5px 5px; */
+}
+
+header nav{
+  width: 100%;
+  text-align: center;
+}
+
+header nav ul li{
+  background-color: rgb(204,153,51);
+  border: 1px solid rgba(121, 86, 16, 0.589);
+  border-radius: 5px;
+}
+
+header nav ul li, a{
+  display: inline-block;
+  text-decoration: none;
+  color: #f1f1f1;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin: 3px 1px;
+}
+
+header nav ul li a:hover{
+  color: #0f0f0f;
+}
+
+main {
+    width:960px;
+    background-color:rgb(255,255,255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    box-shadow: 0 0 10px #666;
+    margin:10px auto;
+    padding:10px;
+}
+
+header {
+    padding:25px;
+    background-color:rgb(204,153,51);
+    text-align:center;
+    margin-bottom:20px;
+}
+
+header h1 {
+    font-size:1.3em;
+    color:rgb(255,255,255);
+}
+
+.janela1 {
+    background-color:rgb(153,204,51);
+    height:500px;
+    float:left;
+    width:266px;
+    padding: 20px;
+}
+
+.janela2 {
+    background-color:rgb(255,204,51);
+    height:500px;
+    float:left;
+    width:267px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.janela3 {
+  background-color:rgb(51, 255, 245);
+  height:500px;
+  float:right;
+  width:266px;
+  padding: 20px;
+}
+
+footer {
+    padding:5px;
+    background-color:rgb(204,153,51);
+    text-align:center;
+    color:rgb(255,255,255);
+    clear:both;
+}
